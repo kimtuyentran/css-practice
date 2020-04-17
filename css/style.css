@@ -10,6 +10,14 @@ body {
     font-size: 16px;
 }
 
+.float-right {
+    float: right;
+}
+
+.margin-r-10 {
+    margin-right: 10px;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -30,7 +38,6 @@ body {
 .story-info {
     flex-grow: 1;
     font-size: 1rem;
-    margin-top: 5px;
 }
 
 .story-info p {
@@ -90,7 +97,7 @@ body {
 }
 
 .profile-wrap {
-    padding: 40px 20px;
+    padding: 20px;
 }
 
 .profile-wrap>img {
@@ -98,6 +105,34 @@ body {
     cursor: pointer;
 }
 
+.post-wrap {
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
 .post-wrap .image {
     width: 100%;
+}
+
+.post-wrap .react-icon {
+    padding: 10px 20px 0px;
+}
+
+.profile-image.profile1 {
+    margin-left: -10px;
+    margin-right: 0;
+}
+
+.profile-image.profile1 img {
+    width: 70%;
+    height: 70%;
+}
+
+.story-info p.like-by {
+    font-size: 1rem;
+    color: black;
+}
+
+.story-info p.like-by span {
+    font-weight: bold;
 }
