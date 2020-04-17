@@ -14,8 +14,20 @@ body {
     float: right;
 }
 
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.display-inline {
+    display: inline;
+}
+
 .margin-r-10 {
     margin-right: 10px;
+}
+
+.margin-bottom-small {
+    margin-bottom: 10px;
 }
 
 .uppercase {
@@ -118,6 +130,10 @@ body {
     padding: 10px 20px 0px;
 }
 
+.like-box {
+    padding: 0 20px;
+}
+
 .profile-image.profile1 {
     margin-left: -10px;
     margin-right: 0;
@@ -135,4 +151,69 @@ body {
 
 .story-info p.like-by span {
     font-weight: bold;
+}
+
+.post-content {
+    padding: 0 20px;
+}
+
+.post-content>p {
+    margin-bottom: 10px;
+}
+
+.post-content p span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.post-content p span.more {
+    color: #bbb;
+    cursor: pointer;
+}
+
+.post-content .time-line {
+    text-transform: uppercase;
+    color: #bbb;
+}
+
+.view-comment,
+.view-comment:link {
+    text-decoration: none;
+    color: #bbb;
+}
+
+.view-comment:visited {
+    color: cornflowerblue;
+}
+
+.comment-list .comment span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+/* // add comment */
+
+.add-comment {
+    padding: 20px;
+    border-top: 1px solid #bbb;
+}
+
+.add-comment .add-comment-ran {
+    border: none;
+    font-size: 1rem;
+    width: 70%;
+    height: 30px;
+}
+
+.add-comment .add-comment-ran:focus {
+    border-color: transparent;
+    outline: none;
+}
+
+.add-comment .post {
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    color: #0095f6;
 }
