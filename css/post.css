@@ -1,0 +1,102 @@
+.post-wrap {
+    border: 1px solid #d0cece;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.post-wrap .image {
+    width: 100%;
+}
+
+.post-wrap .react-icon {
+    padding: 10px 20px 0px;
+}
+
+.like-box {
+    padding: 0 20px;
+}
+
+.profile-image.profile1 {
+    margin-left: -10px;
+    margin-right: 0;
+}
+
+.profile-image.profile1 img {
+    width: 70%;
+    height: 70%;
+}
+
+.story-info p.like-by {
+    font-size: 1rem;
+    color: black;
+}
+
+.story-info p.like-by span {
+    font-weight: bold;
+}
+
+.post-content {
+    padding: 0 20px;
+}
+
+.post-content>p {
+    margin-bottom: 10px;
+}
+
+.post-content p span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.post-content p span.more {
+    color: #bbb;
+    cursor: pointer;
+}
+
+.post-content .time-line {
+    text-transform: uppercase;
+    color: #bbb;
+}
+
+.view-comment,
+.view-comment:link {
+    text-decoration: none;
+    color: #bbb;
+}
+
+.view-comment:visited {
+    color: cornflowerblue;
+}
+
+.comment-list .comment span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+/* // add comment */
+
+.add-comment {
+    padding: 20px;
+    border-top: 1px solid #d0cece;
+}
+
+.add-comment .add-comment-ran {
+    border: none;
+    font-size: 1rem;
+    width: 70%;
+    height: 30px;
+}
+
+.add-comment .add-comment-ran:focus {
+    border-color: transparent;
+    outline: none;
+}
+
+.add-comment .post {
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    color: #0095f6;
+}

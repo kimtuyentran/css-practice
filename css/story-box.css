@@ -1,0 +1,50 @@
+.story-box {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-info {
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.story-info p {
+    color: #bbb;
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+
+.profile-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    z-index: 0;
+}
+
+.story-box .profile-image::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    background: rgb(245, 10, 206);
+    background: linear-gradient(-108deg, rgba(245, 10, 206, 1) 0%, rgba(250, 77, 160, 1) 46%, rgba(253, 120, 45, 1) 66%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.profile-image img {
+    width: 92%;
+    height: 92%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
